@@ -925,11 +925,11 @@ strong {
   position: fixed;
   bottom: 10px;
   width: 335px;
-  padding: 30px;
+  padding: 37px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
-
+  border: 1px solid rgba(29, 66, 217, 0.65);
   z-index: 1000;
   display: none;
 }
@@ -941,36 +941,46 @@ strong {
   line-height: 22px;
   letter-spacing: 0%;
 
-  color: rgba(125, 149, 150, 1);
+  color: rgba(87, 78, 68, 1);
 }
 
 .q-b-cookie-button-container {
-  padding: 22px 0 0;
+  padding: 37px 0 0;
   margin: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 18px;
 }
 
 .q-b-cookie-button {
   border: none;
   background-color: transparent;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(239, 240, 246, 1);
+  box-shadow: 0px 4px 8px 0px rgba(74, 58, 255, 0.08);
+  width: 110px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: rgba(87, 78, 68, 1);
+  border-radius: 56px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 #accept-cookies {
-  width: 150px;
-  border-radius: 56px;
-  padding-top: 14px;
-  padding-bottom: 16px;
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0px;
-  color: rgba(8, 10, 10, 1);
+  width: 173px;
 
-  background: rgba(241, 249, 154, 1);
+  border-radius: 56px;
+  padding-top: 18px;
+  background: rgba(29, 66, 217, 1);
+  box-shadow: 0px 3px 12px 0px rgba(74, 58, 255, 0.18);
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 18px;
 }
 
 .q-b-close-popup {
@@ -989,28 +999,27 @@ strong {
   }
 
   .q-b-cookie-popup-text-two {
-    font-family: Inter;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 30px;
     letter-spacing: 0%;
 
-    width: 332px;
+    width: 648px;
   }
 
   .q-b-cookie-button-container {
     padding: 0;
     margin: auto;
     display: flex;
-    flex-direction: row;
-    gap: 40px;
+    flex-direction: row-reverse;
+    gap: 20px;
   }
 
   .q-b-cookie-popup {
     position: fixed;
     bottom: 10px;
-    width: 740px;
-    padding: 32px 82px;
+    width: 1272px;
+    padding: 32px 138px;
     display: none;
   }
 }
